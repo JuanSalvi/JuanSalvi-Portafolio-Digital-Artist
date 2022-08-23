@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #bbb;
+    background-color: #171717;
+}
+
+.Perfil-Artista{
+
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    position: relative;
+    /* background-position: bottom,center; */
+    background-position: center;
+    background-repeat: repeat-x,no-repeat;
+    background-color: #000;
+    background-size: auto,cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 340px;
+    max-height: 600px;
+
+    background-image: url("yuka-soemy-sea.jpg");
+}
+
+.Info-Artista{
+
+    text-align: center;
+}
+
+.Info-Artista .Avatar{
+    margin: 0 auto 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.Avatar img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 0 0 rgb(0 0 0 / 8%);
+}
+
+
+.Info-Text{
+    text-align: center;
+    font-size: 32px;
+    color: #f1f1f1;
+    line-height: 1.2em;
+    margin: 0;
+    text-shadow: 5px 5px 5PX #2f2e2e;
+}
+
+.Info-Adiccional{
+    color: #2f2e2e;
+    line-height: 1.75em;
+}
+
+.Info-Adiccional h2 {
+    margin-top: 20px;
+}
+
+.Separacion{
+    margin-bottom: 30px;
+}
+
+.Navegador{
+    min-height: 50px;
+    max-height: 100px;
+    background-color: #222;
+}
+
+.Follower h4{
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.Galeria{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.Ilustracion img{
+    height:  300px;
+}
